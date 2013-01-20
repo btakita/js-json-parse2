@@ -8,7 +8,7 @@ JSON parsing with callbacks! It's so not try/catch/finally...
 
     JSON.parse2('I am not JSON', function(err, json) {
       if (err) {
-        console.info("FUUUUUUUUUUUUUUUUU");
+        console.info('FUUUUUUUUUUUUUUUUU');
       } else {
         onWithMyDay();
       }
